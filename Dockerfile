@@ -1,4 +1,4 @@
-FROM node:5.11.0
+FROM node:6.10.2
 
 RUN apt-get update && apt-get install -y rsync
 RUN mkdir -p /build
